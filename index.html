@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - TI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#home" class="logo">Portfólio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Olá, sou <span class="highlight">Felipe Morais</span></h1>
+                <p class="subtitle">Desenvolvedor jr/ Analista de TI jr</p>
+                <p class="description">Apaixonado por tecnologia e por criar soluções que fazem a diferença.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Sou um profissional de TI com experiência em desenvolvimento de software, análise de sistemas e resolução de problemas técnicos. Gosto de trabalhar com tecnologias modernas e de estar sempre aprendendo algo novo.</p>
+                        <p>Minha jornada na tecnologia começou com curiosidade e hoje é minha paixão. Busco sempre entregar qualidade e inovação em cada projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Ferramentas</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>VS code</li>
+                            <li>AWS</li>
+                            <li>Windows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Sistema de Gerenciamento de Finanças</h3>
+                        <p>Aplicação full-stack para gerenciamento de finanças com autenticação de usuários.</p>
+                        <div class="tech-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Firebase Google</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Sistema de Gerenciamento Escola</h3>
+                        <p>Aplicação para entrega de necessidades escolas com autenticação.</p>
+                        <div class="tech-tags">
+                            <span>.JS</span>
+                            <span>Supabase</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Dashboard de Analytics</h3>
+                        <p>Painel interativo para visualização de dados em tempo real.</p>
+                        <div class="tech-tags">
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Vamos trabalhar juntos? Entre em contato!</p>
+                <div class="contact-links">
+                    <a href="mailto:felipe.morais1609@gmail.com" class="contact-link">
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/felipe-morais-6027ba372/" target="_blank" rel="noopener" class="contact-link">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/DevFelipeMorais" target="_blank" rel="noopener" class="contact-link">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
